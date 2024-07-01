@@ -1,0 +1,128 @@
+.main {
+    margin-top: 20px;
+}
+
+.amenite {
+    text-align: center;
+    padding: 20px;
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.phots {
+    width: 60%;
+}
+
+.phots img {
+    width: 800px;
+    border-radius: 20px;
+    height: 450px;
+    object-fit: cover;
+    margin-left: 30px;
+}
+
+.activity {
+    width: 40%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconTextFirst {
+    margin: 30px;
+}
+
+.iconTextFirst i {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconTextFirst p {
+    font-size: 20px;
+}
+
+.SecondIcon i {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SecondIcon p {
+    font-size: 20px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .slide {
+        flex-wrap: wrap;
+    }
+
+    .phots {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .phots img {
+        width: 500px;
+        margin-left: 0;
+    }
+
+    .activity {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 550px) {
+    .phots img {
+        width: 400px;
+
+    }
+}
+
+@media (max-width: 480px) {
+    .phots img {
+        width: 300px;
+        height: 350px;
+    }
+
+    .iconTextFirst {
+        margin: 0px;
+        padding: 15px;
+    }
+
+    .iconTextFirst i {
+        font-size: 20px;
+    }
+
+    .iconTextFirst p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .SecondIcon i {
+        font-size: 20px;
+    }
+
+    .SecondIcon p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .activity {
+        padding: 0;
+
+    }
+
+}

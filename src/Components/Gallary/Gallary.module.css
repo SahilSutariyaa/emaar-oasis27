@@ -1,0 +1,134 @@
+.Gallary {
+    margin-top: 20px;
+}
+
+.vision {
+    text-align: center;
+}
+
+.First {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FirstIn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FirstIn .item1 img {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.FirstIn .item1 img:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+.FirstIn .item2 img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.FirstIn .item2 img:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+.SecondIn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SecondIn .item3 img {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.SecondIn .item3 img:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+.SecondIn .item4 img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.SecondIn .item4 img:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+
+@media (max-width: 768px) {
+    .First {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .FirstIn .item1 img {
+        margin: 5px;
+
+    }
+
+    .SecondIn .item3 img {
+        margin: 5px;
+    }
+}
+
+@media (max-width: 415px) {
+    .FirstIn .item1 img {
+        height: 150px;
+        width: 150px;
+
+    }
+
+    .FirstIn .item2 img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .SecondIn .item3 img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .SecondIn .item4 img {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+/* @media (max-width: 390px) {
+    .FirstIn .item1 img {
+        height: 150px;
+        width: 150px;
+
+    }
+
+    .FirstIn .item2 img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .SecondIn .item3 img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .SecondIn .item4 img {
+        height: 150px;
+        width: 150px;
+    }
+} */

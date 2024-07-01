@@ -1,0 +1,160 @@
+.main {
+    margin-top: 20px;
+    background-color: lightgray;
+}
+
+.local {
+    text-align: center;
+    padding: 20px;
+}
+
+.location {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map {
+    width: 60%;
+    text-align: center;
+}
+
+.map iframe {
+    height: 400px;
+    width: 800px;
+}
+
+.fom {
+    width: 40%;
+}
+
+.fom h3 {
+    text-align: center;
+}
+
+.fom h6 {
+    text-align: center;
+}
+
+.subForm {
+    margin-left: 100px;
+}
+
+.subForm input {
+    width: 400px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.subForm label {
+    font-size: 1.5rem;
+}
+
+.subForm .btn {
+    width: 400px;
+    height: 40px;
+    background-color: rgb(75, 75, 239);
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.subForm h5 {
+    text-align: center;
+    cursor: pointer;
+}
+
+.foter {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* media */
+@media (max-width: 1050px) {
+    .location {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .map {
+        width: 100%;
+        text-align: center;
+    }
+
+    .map iframe {
+        height: 400px;
+        width: 900px;
+    }
+
+    .fom {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .location {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .map {
+        width: 100%;
+        text-align: center;
+    }
+
+    .map iframe {
+        height: 400px;
+        width: 650px;
+    }
+
+    .fom {
+        width: 100%;
+        text-align: center;
+    }
+
+    .subForm input {
+        width: auto;
+    }
+
+    .subForm .btn {
+        width: 100px;
+
+    }
+
+    .subForm {
+        margin-left: 0;
+    }
+
+}
+
+@media (max-width: 670px) {
+    .map iframe {
+        width: 550px;
+    }
+
+}
+
+@media (max-width: 560px) {
+    .map iframe {
+        width: 440px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 450px) {
+    .map iframe {
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 410px) {
+    .map iframe {
+        width: 300px;
+        height: 300px;
+    }
+}

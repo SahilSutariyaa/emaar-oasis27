@@ -1,0 +1,44 @@
+.photo {
+    height: 660px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.btn1 {
+    height: 45px;
+    background-color: rgb(86, 76, 232);
+    color: aliceblue;
+    font-size: 20px;
+    width: 200px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    color: rgb(86, 76, 232);
+    background-color: white;
+}
+
+.btn2 {
+    height: 45px;
+    background-color: antiquewhite;
+    color: rgb(0, 1, 2);
+    font-size: 20px;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: black;
+    color: antiquewhite;
+}
+
+@media screen and (max-width: 768px) {
+    .photo {
+        height: 550px;
+        width: 100%;
+        object-fit: cover;
+    }
+}

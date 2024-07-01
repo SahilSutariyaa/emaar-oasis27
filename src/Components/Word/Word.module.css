@@ -1,0 +1,36 @@
+.word {
+    margin: auto;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.list p {
+    width: 800px;
+    color: black;
+
+}
+
+@media screen and (max-width: 768px) {
+    .list p {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    .list p {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .list p {
+        max-width: 300px;
+    }
+
+    .word {
+        height: auto;
+    }
+}

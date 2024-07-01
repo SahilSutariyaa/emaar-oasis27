@@ -1,0 +1,42 @@
+.main {
+    height: 300px;
+    background-color: lightgray;
+    margin-top: 20px;
+}
+
+.mirage {
+    text-align: center;
+    padding: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: aliceblue;
+    margin: 15px;
+    width: 500px;
+}
+
+.icon i {
+    font-size: 30px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .box {
+        flex-wrap: wrap;
+    }
+
+    .main {
+        height: auto;
+    }
+}
